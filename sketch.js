@@ -106,6 +106,8 @@ function draw() {
     
     //add gravity
     trex.velocityY = trex.velocityY + 0.8
+    
+    trex.bounceOff("edges");
   
     //spawn the clouds
     spawnClouds();
